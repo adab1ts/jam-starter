@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "ca" }}">
+
+    {% include shared/head.html %}
+
+    <body class="scroll-assist" data-reveal-selectors="section:not(.masonry):not(:first-of-type):not(.parallax)">
+
+    {% include shared/navigation.html %}
+
+    <div class="main-container">
+
+        <!-- [[! Main content gets inserted here ]] -->
+        {{ content }}
+
+        {% include shared/footer.html %}
+
+    </div>
+
+    {% include shared/scripts.html %}
+
+    <!-- Add Google Analytics  -->
+    {% if jekyll.environment == "production" and site.google_analytics %}
+    {% include shared/analytics.html %}
+    {% endif %}
+
+  </body>
+</html>

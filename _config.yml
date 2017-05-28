@@ -16,8 +16,9 @@ mobile_name: Adab1ts Demo
 title: 'Adab1ts demo'
 description: "A beautiful demo site built with Jekyll. The story begins here." # Write an awesome description for your new site here. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
 
-logo: adabits.png
+logo: logo-dark.png
 email: info@adabits.org
+tel: '934 321 765'
 color: #bb00bb
 twitter: adab1ts
 
@@ -40,7 +41,7 @@ encoding: "utf-8"
 markdown_ext: "md"
 
 # Build settings
-theme: minima
+#theme: minima
 gems:
   - jekyll-feed
 exclude:
