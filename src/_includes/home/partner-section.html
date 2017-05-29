@@ -1,0 +1,29 @@
+<section id="partners" class="bg--secondary">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 text-center">
+        <h2>{{ section.titol_seccio }}</h2>
+        <span>
+          {{ section.content }}
+        </span>
+      </div>
+    </div>
+  </div>
+  <section class="partners-1 space--xxs bg--secondary">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="slider" data-items="{{ section.partners | size }}" data-timing="3000">
+            <ul class="slides">
+              {% for item in section.partners %}
+              <li>
+                <img alt="{{ item.nom }}" src="{{ site.baseurl }}/{{ site.images_path }}/partners/{{ item.logo }}">
+              </li>
+              {% endfor %}
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</section>

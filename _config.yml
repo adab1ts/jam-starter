@@ -63,5 +63,6 @@ highlighter: rouge
 collections:
   home:
     output: false
-
+  events:
+    output: true
 # Additional settings available on the front-matter

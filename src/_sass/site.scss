@@ -1,3 +1,12 @@
 @import "variables.scss";
 
 /* Site custom styles */
+.partners-1 .slider img {
+  max-height: 2.625em;
+  opacity: .5;
+  margin: 0;
+}
+#partners .space--xxs {
+  padding-top: 2em;
+  padding-bottom: 0;
+}

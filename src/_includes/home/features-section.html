@@ -1,0 +1,22 @@
+<section>
+    <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+              <div class="elements--title">
+                  <h2>{{ section.titol_seccio }}</h2>
+              </div>
+          </div>
+            {% for item in section.blocs %}
+
+            <div class="col-sm-4">
+                <div class="feature feature-1">
+                    <i class="icon color--primary icon-{{ item.icona }} icon--lg"></i>
+                    <h4>{{ item.titol }}</h4>
+                    <span><em>{{ item.descripcio }}</em></span>
+                </div>
+            </div>
+            {% endfor %}
+
+        </div>
+    </div>
+</section>

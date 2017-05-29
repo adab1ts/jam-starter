@@ -1,0 +1,35 @@
+<!-- The blog area on the homepage -->
+<section class="bg--secondary">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="elements--title">
+                    <h2>{{ section.titol_seccio }}</h2>
+                </div>
+            </div>
+            <!-- This is the post loop -->
+                {% for post in site.posts limit:6 %}
+                {% if post.tag == 'blog' %}
+                <article class="col-md-4 col-sm-6">
+                    <div class="card card-1">
+                      <a href="{{ site.baseurl }}{{ post.url }}">
+                        <div class="card__image">
+                            <img alt="{{ post.cover_text }}" src="{{ site.baseurl }}/{{ site.images_path }}/{{ post.cover_imatge }}">
+                        </div>
+                        <div class="card__body boxed bg--white">
+                            <header class="card__title">
+                                <h5>{{ post.titol_entrada }}</h5>
+                            </header>
+                            <span>
+                                <em><time datetime="{{ post.data | date:'%d-%m-%Y' }}">{{ post.data | date_to_string }}</time></em>
+                            </span>
+                            <p>{{ post.content | strip_html | truncatewords: 35 }}</p>
+                        </div>
+                      </a>
+                    </div>
+                </article>
+                {% endif %}
+                {% endfor %}
+        </div>
+    </div>
+</section>

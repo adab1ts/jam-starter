@@ -1,10 +1,10 @@
 ---
-layout: basic
+layout: multi-section
+# Nom de la col·leccio de seccions de la pàgina
+sections: home
+cover_imatge: hero13.jpg
+# SEO information
+title: 'Finding The Way Home'
+description: 'This is the homepage of my site'
+keywords:
 ---
-# Lorem ipsum dolor sit amet
-
-Cconsectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-
-### Lorem ipsum dolor sit amet
-
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
