@@ -1,4 +1,24 @@
 ---
 layout: default
 ---
-{{content}}
+<header class="cover height-40 imagebg" data-overlay="2">
+  <div class="background-image-holder">
+    <img alt="background" src="{{ site.baseurl }}/{{ site.images_path }}/{{ page.cover_imatge }}">
+  </div>
+  <div class="container pos-vertical-center">
+    <div class="row">
+      <div class="col-sm-6">
+        <h1>{{ page.title }}</h1>
+      </div>
+    </div>
+  </div>
+</header>
+<section class="bg--secondary">
+  <div class="container">
+    <div class="row">
+      <article class="col-sm-8 col-sm-offset-2">
+        {{ content }}
+      </article>
+    </div>
+  </div>
+</section>
