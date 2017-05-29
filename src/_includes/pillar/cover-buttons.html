@@ -1,4 +1,4 @@
-<!-- The big featured header  -->
+<!-- The big header with buttons  -->
 <header class="cover imagebg height-90 parallax" data-overlay="6">
     <div class="background-image-holder">
         <img alt="{{ page.cover_text }}" src="{{ site.baseurl }}/{{ site.images_path }}/{{ page.cover_imatge }}">
@@ -9,9 +9,9 @@
                 <h1 class="h2">{{ section.claim }}</h1>
                 <p class="lead">{{ section.content }}</p>
                 <a class="btn btn--primary inner-link btn--merge" href="{{ site.baseurl }}{% link projecte01.md %}">
-                    <span class="btn__text">el projecte</span>
+                    <span class="btn__text">{{ section.boto_1 }}</span>
                 </a><a class="btn btn--primary inner-link btn--merge" href="{{ site.baseurl }}{% link index.md %}#partners">
-                    <span class="btn__text">patrocinadors</span>
+                    <span class="btn__text">{{ section.boto_2 }}</span>
                 </a>
             </div>
         </div>
