@@ -1,15 +1,15 @@
 ---
 layout: post
-titol_entrada: 'Grecs troians e de les amazones'
+titol_entrada: 'Your online community'
 autor: 'Tirant lo blanc'
-data: 2017-05-25 18:42:16 +0200
+data: 2017-05-05 18:42:16 +0200
 tag: blog
 categoria: literatura
-cover_imatge: hero25.jpg
+cover_imatge: hero24.jpg
 cover_text: 'This is alt text for cover image'
 # SEO information
-title: 'Grecs troians e de les amazones'
-description: 'Gloriosa recordació sia estat aquell valentíssim cavaller Tirant lo Blanc'
+title: 'Your online community'
+description: 'Advice for stirring your online community'
 keywords:
 ---
 Titus Lívius dels. Milícia sinó lo fort animós prudent e. Sua partida En la fèrtil rica e delitosa. Fàcilment a oblivió no solament los. Llong temps l'art de cavalleria ab. De molts altres Trobam escrites les batalles d'Alexandre e Dari;. Que diu lo gloriós Sant Lluc. Cavallers ha bastat aterrar les forces dels. De Marc Antoni e de molts altres Trobam escrites. Ésser feta al cavaller Les quals set parts de cavalleria. Cavalleria que féu l'egregi e estrenu. Com en terra e havia portades moltes batalles a fi. O generós qui vol rebre l'orde de cavalleria; lo quart. Havent dolor e contricció de moltes.

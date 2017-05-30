@@ -1,0 +1,21 @@
+<!-- Related post -->
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="elements--title">
+          <h4>Notícies relacionades</h4>
+        </div>
+      </div>
+      <!-- This is the post loop -->
+      {% for post in site.posts %}
+      {% unless post.title == page.title %}
+      {% if post.categoria == page.categoria limit:3 %}
+      {% include pillar/card-1.html %}
+      {% endif %}
+      {% endunless %}
+      {% endfor %}
+
+    </div>
+  </div>
+</section>
