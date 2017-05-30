@@ -6,7 +6,7 @@ data: 2017-05-25 18:42:16 +0200
 tag: blog
 categoria: literatura
 cover_imatge: hero25.jpg
-cover_text: 'This is alt text for cover image'
+descripcio_imatge: 'This is alt text for cover image'
 # SEO information
 title: 'Grecs troians e de les amazones'
 description: 'Gloriosa recordació sia estat aquell valentíssim cavaller Tirant lo Blanc'

@@ -61,8 +61,13 @@ highlighter: rouge
 
 # Collections
 collections:
-  home:
+  equip:
     output: false
   events:
     output: true
+  home:
+    output: false
+  nosaltres:
+    output: false
+
 # Additional settings available on the front-matter

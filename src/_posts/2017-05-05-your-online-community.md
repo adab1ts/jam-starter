@@ -6,7 +6,7 @@ data: 2017-05-05 18:42:16 +0200
 tag: blog
 categoria: anuncis
 cover_imatge: hero24.jpg
-cover_text: 'This is alt text for cover image'
+descripcio_imatge: 'This is alt text for cover image'
 # SEO information
 title: 'Your online community'
 description: 'Advice for stirring your online community'

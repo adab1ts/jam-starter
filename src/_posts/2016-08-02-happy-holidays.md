@@ -6,7 +6,7 @@ data: 2016-08-01 14:42:16 +0200
 tag: blog
 categoria: anuncis
 cover_imatge: hero5.jpg
-cover_text: 'This is alt text for cover image'
+descripcio_imatge: 'This is alt text for cover image'
 # SEO information
 title: "Happy holidays"
 description: "Happy holidays"

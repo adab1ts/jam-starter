@@ -5,7 +5,7 @@ data: 2017-06-25 18:42:16 +0200
 lloc: Barcelona
 organitzadors: Adab1ts
 cover_imatge: hero3.jpg
-cover_text: 'This is alt text for cover image'
+descripcio_imatge: 'This is alt text for cover image'
 # SEO information
 title: 'Networking'
 description: 'Gloriosa recordació sia estat aquell valentíssim cavaller Tirant lo'

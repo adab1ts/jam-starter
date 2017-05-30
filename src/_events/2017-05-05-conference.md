@@ -5,7 +5,7 @@ data: 2017-05-05 18:42:16 +0200
 lloc: Girona
 organitzadors: Adab1ts
 cover_imatge: hero6.jpg
-cover_text: 'This is alt text for cover image'
+descripcio_imatge: 'This is alt text for cover image'
 # SEO information
 title: 'Tirant lo Blanc Conference'
 description: 'Gloriosa recordació sia estat aquell valentíssim cavaller Tirant lo'

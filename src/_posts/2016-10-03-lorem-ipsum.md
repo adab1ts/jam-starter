@@ -6,7 +6,7 @@ data: 2016-10-03 14:42:16 +0200
 tag: blog
 categoria: literatura
 cover_imatge: hero4.jpg
-cover_text: 'This is alt text for cover image'
+descripcio_imatge: 'This is alt text for cover image'
 # SEO information
 title: "Arbitre que si aquell és ben regit"
 description: "Arbitre que si aquell és ben regit"
