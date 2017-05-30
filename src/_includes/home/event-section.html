@@ -1,16 +1,16 @@
 <!-- The event area on the homepage -->
 <section>
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-12">
-                <div class="elements--title">
-                    <h2>{{ section.titol_seccio }}</h2>
-                </div>
-            </div>
-            <!-- This is the event loop -->
-                {% for event in site.events limit:2 %}
-                    {% include pillar/card-2-horizontal.html %}
-                {% endfor %}
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="elements--title">
+          <h2>{{ section.titol_seccio }}</h2>
         </div>
+      </div>
+      <!-- This is the event loop -->
+      {% for event in site.events limit:2 %}
+      {% include pillar/card-2-horizontal.html %}
+      {% endfor %}
     </div>
+  </div>
 </section>

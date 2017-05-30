@@ -1,19 +1,20 @@
+<!-- horizontal card-2 -->
 <article class="col-md-6 col-sm-12">
-    <div class="card card--horizontal card-2">
-      <a href="{{ site.baseurl }}{{ event.url }}">
-        <div class="card__image col-sm-5">
-            <div class="background-image-holder">
-                <img alt="{{ event.cover_text }}" src="{{ site.baseurl }}/{{ site.images_path }}/{{ event.cover_imatge }}">
-            </div>
+  <div class="card card--horizontal card-2">
+    <a href="{{ site.baseurl }}{{ event.url }}">
+      <div class="card__image col-sm-5">
+        <div class="background-image-holder">
+          <img alt="{{ event.cover_text }}" src="{{ site.baseurl }}/{{ site.images_path }}/{{ event.cover_imatge }}">
         </div>
-        <div class="card__body col-sm-7 boxed bg--white">
-            <header class="card__title">
-                <h4>{{ event.titol_esdeveniment }}</h4>
-                <h5><time datetime="{{ event.data | date:'%d-%m-%Y' }}">{{ event.data | date_to_string }}</time>&nbsp;|&nbsp;{{ event.lloc }}</h5>
-                <h6><em>Organitzadors: {{ event.organitzadors }}</em></h6>
-            </header>
-            <p>{{ event.content | strip_html | truncatewords: 35 }}</p>
-        </div>
-      </a>
-    </div>
+      </div>
+      <div class="card__body col-sm-7 boxed bg--white">
+        <header class="card__title">
+          <h4>{{ event.titol_esdeveniment }}</h4>
+          <h5><time datetime="{{ event.data | date:'%d-%m-%Y' }}">{{ event.data | date_to_string }}</time>&nbsp;|&nbsp;{{ event.lloc }}</h5>
+          <h6><em>Organitzadors: {{ event.organitzadors }}</em></h6>
+        </header>
+        <p>{{ event.content | strip_html | truncatewords: 35 }}</p>
+      </div>
+    </a>
+  </div>
 </article>
