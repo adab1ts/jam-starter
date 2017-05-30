@@ -65,9 +65,15 @@ collections:
     output: false
   events:
     output: true
+  gestor-continguts:
+    output: false
   home:
     output: false
   nosaltres:
+    output: false
+  lorem-ipsum-project:
+    output: false
+  web-estatica-moderna:
     output: false
 
 # Additional settings available on the front-matter
