@@ -1,0 +1,24 @@
+---
+layout: default
+---
+{% include pillar/cover-small.html %}
+
+<section class="bg--secondary">
+  <div class="container">
+    <div class="row">
+      <div class="masonry masonry-blog">
+        <div class="masonry__container masonry--animate masonry--active">
+
+          <!-- This is the post loop -->
+          {% for post in site.posts limit:4 %}
+          {% include pillar/card-6.html %}
+          {% endfor %}
+
+        </div>
+      </div>
+    </div>
+
+    {% include pillar/pagination.html %}
+
+  </div>
+</section>

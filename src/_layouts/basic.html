@@ -1,18 +1,8 @@
 ---
 layout: default
 ---
-<header class="cover height-40 imagebg" data-overlay="2">
-  <div class="background-image-holder">
-    <img alt="background" src="{{ site.baseurl }}/{{ site.images_path }}/{{ page.cover_imatge }}">
-  </div>
-  <div class="container pos-vertical-center">
-    <div class="row">
-      <div class="col-sm-8">
-        <h1>{{ page.title }}</h1>
-      </div>
-    </div>
-  </div>
-</header>
+{% include pillar/cover-small.html %}
+
 <section class="bg--secondary">
   <div class="container">
     <div class="row">

@@ -4,7 +4,7 @@ titol_entrada: 'Your online community'
 autor: 'Tirant lo blanc'
 data: 2017-05-05 18:42:16 +0200
 tag: blog
-categoria: literatura
+categoria: anuncis
 cover_imatge: hero24.jpg
 cover_text: 'This is alt text for cover image'
 # SEO information
