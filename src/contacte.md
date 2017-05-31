@@ -1,4 +1,17 @@
 ---
-layout: basic
+layout: contact
+cover_imatge: hero14.jpg
+# SEO information
+title: 'Contacte'
+description: 'The contact info of my site'
+keywords:
+# Set variables
+mapa: mapa.png 
+info_contacte:
+  - info: "info@domini.cat"
+    icona: 'Mail'
+  - info: "Grand Avenue 23, City"
+    icona: 'Map2'
+  - info: "(+34) 933 747 820"
+    icona: 'Phone'
 ---
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
