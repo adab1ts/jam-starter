@@ -4,7 +4,7 @@ tipus: projecte
 categoria: 'web development'
 # Nom de la col·leccio de seccions de la pàgina
 sections: gestor-continguts
-cover_imatge: hero11.jpg
+cover_imatge: computer-edit.jpg
 descripcio_imatge: 'This is alt text for cover image'
 # SEO information
 title: 'CMS per webs JamStack '

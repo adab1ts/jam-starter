@@ -4,7 +4,7 @@ tipus: projecte
 categoria: 'web development'
 # Nom de la col·leccio de seccions de la pàgina
 sections: web-estatica-moderna
-cover_imatge: hero10.jpg
+cover_imatge: working-57714.jpg
 descripcio_imatge: 'This is alt text for cover image'
 # SEO information
 title: 'Web estàtica moderna'
