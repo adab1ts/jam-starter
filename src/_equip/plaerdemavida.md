@@ -1,6 +1,6 @@
 ---
-nom: 'Plaerdemavida'
-carrec: 'Donzella de la cort de Constantinoble'
-imatge: avatar-large-2.png
+nom: 'Foo Bar'
+carrec: 'Funsraiser'
+imatge: man-2.jpg
 ---
-Personatge de la novel·la de Joanot Martorell Tirant lo Blanc. És una noia plena de facetes, intel·ligent i amb una personalitat alegre, extravertida i desimbolta. Fa de mediadora en els amors entre el cavaller Tirant i la princesa Carmesina i també ajuda a unir-se unes altres parelles, però el seu amor per Hipòlit no és correspost.
+Nulla pharetra facilisis nisi vitae auctor. Sed fermentum sodales pharetra. Proin congue lorem nisl, vitae auctor sem efficitur a. Pellentesque iaculis enim imperdiet, finibus nisi quis, vehicula risus. Nulla egestas varius dolor, eu gravida nunc bibendum et. In ornare a tortor vitae tincidunt. Fusce posuere venenatis laoreet. Vivamus blandit augue in sem convallis, nec placerat elit consequat. Vestibulum et ante quam. Morbi quam massa, dictum non venenatis sit amet, ornare ac massa.

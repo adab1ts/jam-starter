@@ -1,6 +1,6 @@
 ---
-nom: 'Tirant lo blanc'
-carrec: 'Cavaller'
-imatge: avatar-large-3.png
+nom: 'Alice Roe'
+carrec: 'Documentalista'
+imatge: photographer.jpg
 ---
-Valent, fort i molt hàbil amb les armes, planta cara a les situacions més arriscades i perilloses, lluitant a les batalles amb enginy i justícia. És amable, educat i defensa uns ideals concrets i defensa el seu honor amb totes les seves forces. 
+Quisque sollicitudin, lectus eget varius bibendum, massa augue pulvinar elit, sit amet efficitur velit diam sagittis odio. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam nec fermentum mi. Aenean a ex lectus. Morbi volutpat varius imperdiet. Sed velit erat, vestibulum in quam at, placerat cursus nisi. Quisque pellentesque erat vel lacus vehicula molestie.

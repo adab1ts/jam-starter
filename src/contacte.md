@@ -1,12 +1,12 @@
 ---
 layout: contact
-cover_imatge: hero14.jpg
+cover_imatge: hands-support.jpg
 # SEO information
 title: 'Contacte'
 description: 'The contact info of my site'
 keywords:
 # Set variables
-mapa: mapa.png 
+mapa: mapa.png
 info_contacte:
   - info: "info@domini.cat"
     icona: 'Mail'
