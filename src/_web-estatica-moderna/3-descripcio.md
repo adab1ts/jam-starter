@@ -4,27 +4,25 @@ order: 3
 # Specify the layout for this section
 include: projecte/project-description.html
 # Set variables
-titol_seccio: "Turning technical features into business benefits"
+titol_seccio: "Característiques tècniques que es tornen beneficis"
 caracteristiques:
-  - titol: "Web Standards benefits"
-    descripcio: "Web Standards are about using standards (Structural, presentational, Object and Scripting languages) and best practices (valid, semantic and accessible code) to benefit your users. Web Standards ensure the long-term viability of any web document, simplify code and lower the cost of production and deliver sites that are accessible to more people and more devices."
-    icona: "Apple"
-  - titol: "Solid Security"
-    descripcio: "If you’re using a popular CMS, you know about the necessary security measures. This is mostly due to the login page being available to anyone with access to the website and some basic knowledge of the specific CMS. With a static website, a login page doesn’t exist. With server-side processes abstracted into microservice APIs, surface areas for attacks are reduced. You can also leverage the domain expertise of specialist third-party services."
-    icona: "Cardiovascular"
-  - titol: "Faster loading times"
-    descripcio: "The fact that JAMstack websites don’t have to make any calls to a database makes the loading time exponentially quicker. A faster site = better user experience & Google rankings."
-    icona: "Shop-2"
-  - titol: "Manteniment & escalabilitat"
-    descripcio: "Cheaper, Easier Scaling: We’re not dealing with expensive runtimes or complicated server setups — we’re only dealing with static files being served on the client side. No database, no plugins = no need of maintenance."
-    icona: "Shop-2"
+  - titol: "Rendiment òptim"
+    descripcio: "El fet que les webs JAMstack no han de realitzar cap crida a una base de dades fa que el temps de càrrega sigui exponencialment més ràpid. JAMstack facilita l'optimització del codi i dels assets, proporcionant el millor rendiment possible. Un site més ràpid significa millor experiència d'usuari i millor posicionament SEO."
+    icona: "Loading-2"
+  - titol: "Més segures"
+    descripcio: "Els CMS com WordPress necessiten de mesures de seguretat d'actualització constant. Amb una web estàtica l'exposició a perills es redueix pràcticament a cero, en eliminar els processos de servidor i les bases de dades. A més, implementa mecanisme de backup a cada canvi, la qual cosa fa impossible perdre la informació i facilita poder tornar a una versió anterior en cas que sigui necessari."    
+    icona: "Security-Check"
+  - titol: "Manteniment a cost 0"
+    descripcio: "L'eliminació de base de dades i de la tecnologia de servidor, junt amb la no necessitat d'actualitzar plugins, temes, etc... fa que les web JAMstack no necessitin de manteniment, suposant un estalvi a mig i llarg termini. "
+    icona: "Door-Hanger"
+  - titol: "Web Standards"
+    descripcio: "Els estàndards web tracten sobre l'ús de normes (estructurals i de presentació), i de bones pràctiques en el desenvolupament (codi vàlid, semàntic i accessible) per beneficiar els seus usuaris. Treballar amb estàndards assegura la viabilitat a llarg termini de qualsevol document web, simplifica el codi, redueix els costos de producció i proporciona webs que són accessibles a més persones i més dispositius."    
+    icona: "Diploma-2"
   - titol: "Accessibilitat"
-    descripcio: "Why use accessible code? Allows your site to be accessible to a larger audience (vision impaired, motor skill impaired, cognitive impaired). Allows your site to be accessed by wider range of devices (hand helds, screen readers, text browsers, search engines). Better SEO."
-    icona: "Shop-2"
-  - titol: "APIs flexibility"
-    descripcio: "Front-End and CMS are Decoupled, you don’t have a CMS dictating the way you should structure your content and pages. Not having a CMS tied in to the presentation layer gives you the flexibility of creating anything you want on the front-end while using the API endpoints to pull in content."
-    icona: "Shop-2"
+    descripcio: "Construir una web amb codi accessible és important perquè garanteix que un públic ampli hi tingui accés, sense limitacions per problemes de visió, d'habilitat motora o cognitiva. També permet que la web sigui accessible no només des d'una gamma més àmplia de dispositius sino també per lectors de pantalla i motors de cerca, la qual cosa millora el posicionament SEO."
+    icona: "Eye-Blind"
+  - titol: "Flexibilitat"
+    descripcio: "Donat que presentació i continguts estan desacoblats, desapareixen les restriccions que imposen els CMS a l'hora d'estructurar continguts i pàgines. No tenir un CMS vinculat al frontend ofereix la flexibilitat de crear amb llibertat tot allò que sigui necessari i utilitzar API's per carregar els continguts."
+    icona: "Puzzle"
 ---
-The JAMstack is not about specific technologies. It’s a new way of building websites and apps that delivers better performance, higher security, lower cost of scaling, and a better experience.
-
-Thanks to modern browsers, static site generators, CDNs, and APIs, web developement has shift from the backend to the now powerful frontend. From Jekyll-specific apps to headless API-first CMS, these static tools come in all shapes and sizes.
+Els navegadors moderns, els generadors de sites estàtics, els CDN i les APIs han permés que el desenvolupament web fes un salt qualitatiu del backend cap al frontend amb totes les seves potencialitats.

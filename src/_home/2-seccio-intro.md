@@ -4,7 +4,7 @@ order: 2
 # Specify the layout for this section
 include: home/features-section.html
 # Set variables
-titol_seccio: "3 coses que una web JamStack pot fer"
+titol_seccio: "3 coses que una web JAMstack pot fer"
 blocs:
   - titol: "Estar disponible offline"
     descripcio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."

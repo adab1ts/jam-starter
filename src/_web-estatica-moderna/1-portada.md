@@ -4,6 +4,8 @@ order: 1
 # Specify the layout for this section
 include: projecte/hero.html
 # Set variables
-titol_seccio: "Modern web development architecture based on client-side JavaScript, reusable APIs, and prebuilt Markup."
+titol_seccio: "Aquitectura moderna de desenvolupament web basada en JavaScript, APIs reutilitzables i Markup creat prèviament."
 ---
-The term JAMstack stands for JavaScript, APIs, and Markup, and it describes a way of building static, database-free websites, that allows you to have all the web performance and security benefits of a static website along with the dynamic capabilities of a database-driven CMS.
+El terme JAMstack descriu una manera de construir webs sense bases de dades que conjuga els beneficis de rendiment i seguretat dels sites estàtics i les facilitas d'administració d'un CMS.
+
+La novetat que JAMstack proposa no és l'ús d'unes tecnologies específiques sinó la *forma innovadora* de construir sites i aplicacions amb aquestes tecnologies.

@@ -7,7 +7,7 @@ sections: gestor-continguts
 cover_imatge: computer-edit.jpg
 descripcio_imatge: 'This is alt text for cover image'
 # SEO information
-title: 'CMS per webs JamStack '
+title: 'CMS per webs JAMstack '
 description: 'Com funcionen els gestors de continguts a una web estàtica moderna'
 keywords:
 ---

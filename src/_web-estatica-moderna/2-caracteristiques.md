@@ -4,14 +4,14 @@ order: 2
 # Specify the layout for this section
 include: projecte/project-features.html
 # Set variables
-titol_seccio: "First, what’s a static website?"
+titol_seccio: "Abans de res, quins són els avantatges d'una web estàtica moderna?"
 caracteristiques:
-  - titol: "HTML5"
+  - titol: "millor rendiment"
+    percentatge: '60'
+  - titol: "major seguretat"
+    percentatge: '80'
+  - titol: "menor cost a mig-llarg termini"
+    percentatge: '25'
+  - titol: "millor experiència"
     percentatge: '40'
-  - titol: "CSS3"
-    percentatge: '30'
-  - titol: "JavaScript"
-    percentatge: '20'
-  - titol: "APIs"
-    percentatge: '10'
 ---
