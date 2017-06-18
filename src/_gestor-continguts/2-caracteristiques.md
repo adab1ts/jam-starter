@@ -6,12 +6,12 @@ include: projecte/project-features.html
 # Set variables
 titol_seccio: "Content Management Systems for JAMstack Sites"
 caracteristiques:
-  - titol: "Siteleaf"
-    percentatge: '40'
   - titol: "Forestry"
-    percentatge: '30'
+    percentatge: '60'
   - titol: "Githubpages"
-    percentatge: '20'
+    percentatge: '85'
+  - titol: "Siteleaf"
+    percentatge: '35'
   - titol: "Cloudcannon"
-    percentatge: '10'
+    percentatge: '12'
 ---
