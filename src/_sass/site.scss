@@ -10,3 +10,27 @@
   padding-top: 2em;
   padding-bottom: 0;
 }
+
+.blog-post .blog-post__author span:not(.h6) {
+  font-size: 1em;
+}
+
+h5,
+.h5 {
+  font-size: 1.2em;
+  line-height: 1.625em;
+}
+
+h6,
+.h6 {
+  font-size: 0.8em;
+  line-height: 2.6em;
+}
+
+.bg--dark {
+  background: #363c3a;
+}
+
+.bg--secondary {
+  background: #e6e6e6;
+}

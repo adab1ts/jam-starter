@@ -1,6 +1,6 @@
 ---
 layout: basic
-cover_imatge: hero15.jpg
+cover_imatge: cover7.jpg
 descripcio_imatge: 'This is alt text for cover image'
 # SEO information
 title: 'Cookies'
@@ -21,6 +21,6 @@ Eget sit amet tellus cras. Lorem ipsum dolor sit amet consectetur adipiscing. At
 
 Posuere ac ut consequat semper viverra nam libero justo. Donec pretium vulputate sapien nec sagittis aliquam malesuada bibendum arcu. Id diam vel quam elementum. Tortor dignissim convallis aenean et tortor at. Mi sit amet mauris commodo quis imperdiet. Adipiscing enim eu turpis egestas pretium aenean pharetra magna ac. Elit scelerisque mauris pellentesque pulvinar pellentesque habitant. Dignissim diam quis enim lobortis scelerisque fermentum. Auctor eu augue ut lectus arcu bibendum at varius. Feugiat nisl pretium fusce id velit ut. Quam viverra orci sagittis eu volutpat odio. Scelerisque eleifend donec pretium vulputate sapien nec sagittis. Nibh venenatis cras sed felis eget.
 
-#### Condimentum 
+#### Condimentum
 
 Mattis pellentesque id nibh tortor id aliquet lectus. Tortor id aliquet lectus proin nibh. Vulputate sapien nec sagittis aliquam malesuada bibendum arcu vitae. Fames ac turpis egestas maecenas pharetra convallis. Non consectetur a erat nam. Quis viverra nibh cras pulvinar mattis nunc sed blandit libero. Non tellus orci ac auctor augue. Elementum nibh tellus molestie nunc. Nisl pretium fusce id velit ut tortor. Massa massa ultricies mi quis hendrerit. In pellentesque massa placerat duis ultricies lacus. Mattis nunc sed blandit libero volutpat sed cras ornare. Ac tortor vitae purus faucibus ornare suspendisse sed. Nisl vel pretium lectus quam id leo in vitae. Faucibus et molestie ac feugiat sed lectus.

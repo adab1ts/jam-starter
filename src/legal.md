@@ -1,6 +1,6 @@
 ---
 layout: basic
-cover_imatge: hero15.jpg
+cover_imatge: political-3.jpg
 descripcio_imatge: 'This is alt text for cover image'
 # SEO information
 title: 'Avís legal'

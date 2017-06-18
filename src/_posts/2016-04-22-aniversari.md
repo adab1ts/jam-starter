@@ -1,10 +1,10 @@
 ---
 layout: post
 titol_entrada: 'Fem 30 anys!'
-autor: 'Ada Lovelace'
+autor: 'Foo Bar'
 data: 2016-04-22 21:42:16 +0200
 tag: blog
-categoria: anuncis
+categoria: campanyes
 cover_imatge: happy-children.jpg
 descripcio_imatge: 'This is alt text for cover image'
 # SEO information
