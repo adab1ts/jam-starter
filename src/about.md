@@ -1,7 +1,7 @@
 ---
 layout: multi-section
 # Nom de la col·leccio de seccions de la pàgina
-sections: nosaltres
+sections: p-nosaltres
 cover_imatge: girl-in-green.jpg
 # SEO information
 title: 'Sobre nosaltres'

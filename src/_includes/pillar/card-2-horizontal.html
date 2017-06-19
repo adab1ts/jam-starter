@@ -10,7 +10,7 @@
       <div class="card__body col-sm-7 boxed bg--white">
         <header class="card__title">
           <h4>{{ event.titol_esdeveniment }}</h4>
-          <h5><time datetime="{{ event.data | date:'%d-%m-%Y' }}">{{ event.data | date_to_string }}</time>&nbsp;|&nbsp;{{ event.lloc }}</h5>
+          <h5><time datetime="{{ event.date | date:'%d-%m-%Y' }}">{{ event.date | date_to_string }}</time>&nbsp;|&nbsp;{{ event.lloc }}</h5>
           <h6><em>Organitzadors: {{ event.organitzadors }}</em></h6>
         </header>
         <p>{{ event.content | strip_html | truncatewords: 35 }}</p>

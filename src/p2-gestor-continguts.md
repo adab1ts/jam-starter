@@ -3,7 +3,7 @@ layout: multi-section
 tipus: projecte
 categoria: 'web development'
 # Nom de la col·leccio de seccions de la pàgina
-sections: gestor-continguts
+sections: p-gestor-continguts
 cover_imatge: computer-edit.jpg
 descripcio_imatge: 'This is alt text for cover image'
 # SEO information

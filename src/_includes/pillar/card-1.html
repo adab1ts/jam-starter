@@ -10,7 +10,7 @@
           <h5>{{ post.titol_entrada }}</h5>
         </header>
         <span>
-          <em><time datetime="{{ post.data | date:'%d-%m-%Y' }}">{{ post.data | date_to_string }}</time></em>
+          <em><time datetime="{{ post.date | date:'%d-%m-%Y' }}">{{ post.date | date_to_string }}</time></em>
         </span>
         <p>{{ post.content | strip_html | truncatewords: 35 }}</p>
       </div>

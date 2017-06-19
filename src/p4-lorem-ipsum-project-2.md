@@ -3,7 +3,7 @@ layout: multi-section
 tipus: projecte
 categoria: 'lorem ipsum'
 # Nom de la col·leccio de seccions de la pàgina
-sections: lorem-ipsum-project
+sections: p-lorem-ipsum-project
 cover_imatge: school-window.jpg
 descripcio_imatge: 'This is alt text for cover image'
 # SEO information

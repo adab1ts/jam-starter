@@ -1,7 +1,7 @@
 ---
 layout: basic
 titol_esdeveniment: 'Trobada #femxarxing'
-data: 2017-06-25 18:42:16 +0200
+date: 2017-06-25 18:42:16 +0200
 lloc: Barcelona
 organitzadors: Fundació Futur Sostenible
 cover_imatge: team-power.jpg

@@ -31,7 +31,7 @@ author_image: 'lovelace.png'
 # Where things are
 source: src
 destination:
-fonts_path: assets/styles
+fonts_path: assets/fonts
 images_path: assets/images
 scripts_path: assets/scripts
 styles_path: assets/styles
@@ -61,19 +61,49 @@ highlighter: rouge
 
 # Collections
 collections:
-  equip:
+  c-equip:
     output: false
-  events:
+  c-events:
     output: true
-  gestor-continguts:
+  p-gestor-continguts:
     output: false
-  home:
+  p-home:
     output: false
-  nosaltres:
+  p-nosaltres:
     output: false
-  lorem-ipsum-project:
+  p-lorem-ipsum-project:
     output: false
-  web-estatica-moderna:
+  p-web-estatica-moderna:
     output: false
 
-# Additional settings available on the front-matter
+# Site defaults frontmatters
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "pages"
+    values:
+      layout: multi-section
+      tipus: page
+      categoria: 'lorem ipsum'
+      sections: p-lorem-ipsum-project
+      cover_imatge: hero13.jpg
+      title: "Títol per SEO"
+      description: "Descripció per SEO"
+      keywords: "Paraules clau separades per comes"
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "posts"
+    values:
+      layout: post
+      titol_entrada: 'Títol de la publicació'
+      autor: 'Jane Doe'
+      date: 2015-02-05 18:42:16 +0200
+      tag: blog
+      categoria: campanyes
+      cover_imatge: social-media.jpg
+      descripcio_imatge: 'This is alt text for cover image'
+      title: 'Títol per SEO'
+      description: 'Descripció per SEO'
+      keywords: "Paraules clau separades per comes"

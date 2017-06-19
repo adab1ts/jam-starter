@@ -2,7 +2,7 @@
 layout: post
 titol_entrada: 'Compromís per un futur sostenible'
 autor: 'Jane Doe'
-data: 2017-05-25 18:42:16 +0200
+date: 2017-05-25 18:42:16 +0200
 tag: blog
 categoria: 'medi ambient'
 cover_imatge: brote.jpg

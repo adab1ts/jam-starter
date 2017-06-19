@@ -3,7 +3,7 @@ layout: multi-section
 tipus: projecte
 categoria: 'web development'
 # Nom de la col·leccio de seccions de la pàgina
-sections: web-estatica-moderna
+sections: p-web-estatica-moderna
 cover_imatge: working-57714.jpg
 descripcio_imatge: 'This is alt text for cover image'
 # SEO information
