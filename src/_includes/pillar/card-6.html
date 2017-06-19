@@ -1,10 +1,10 @@
 <!-- Big horizontal card-6 -->
 <div class="col-sm-12 masonry__item">
-  <a href="{{ site.baseurl }}{{ post.url }}">
+  <a href="{{ post.url | relative_url }}">
     <div class="card card--horizontal card-6">
       <div class="card__image col-sm-7 col-md-8">
         <div class="background-image-holder">
-          <img alt="{{ post.descripcio_imatge }}" src="{{ site.baseurl }}/{{ site.images_path }}/{{ post.cover_imatge }}">
+          <img alt="{{ post.descripcio_imatge }}" src="{{ post.cover_imatge | relative_url }}">
         </div>
       </div>
       <div class="card__body col-sm-5 col-md-4 boxed boxed--lg bg--white">

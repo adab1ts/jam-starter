@@ -7,17 +7,17 @@ include: home/partner-section.html
 titol_seccio: "Partners i col·laboradors destacats"
 partners:
   - nom: "Partner name"
-    logo: "partner1.png"
+    logo: "/assets/images/partners/partner1.png"
   - nom: "Partner name"
-    logo: "partner2.png"  
+    logo: "/assets/images/partners/partner2.png"  
   - nom: "Partner name"
-    logo: "partner3.png"
+    logo: "/assets/images/partners/partner3.png"
   - nom: "Partner name"
-    logo: "partner4.png"
+    logo: "/assets/images/partners/partner4.png"
   - nom: "Partner name"
-    logo: "partner5.png"
+    logo: "/assets/images/partners/partner5.png"
   - nom: "Partner name"
-    logo: "partner6.png"  
+    logo: "/assets/images/partners/partner6.png"  
 ---
 #### *T'agradaria col·laborar als nostres projectes?*
 

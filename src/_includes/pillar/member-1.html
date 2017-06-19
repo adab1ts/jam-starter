@@ -1,7 +1,7 @@
 <!-- Member details -->
 <div class="col-md-4 col-sm-6 col-xs-6">
   <div class="member member-1">
-    <img alt="{{ person.nom }}" src="{{ site.baseurl }}/{{ site.images_path }}/{{ person.imatge }}">
+    <img alt="{{ person.nom }}" src="{{ person.imatge | relative_url }}">
     <h6>{{ person.carrec }}</h6>
     <h5>{{ person.nom }}</h5>
     {{ person.content }}

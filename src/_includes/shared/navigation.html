@@ -3,8 +3,8 @@
     <div class="nav-bar nav--absolute nav--transparent" data-fixed-at="300">
       <div class="nav-module logo-module left">
         <a href="{{ site.baseurl }}{% link index.md %}">
-          <img alt="logo" class="logo logo-dark" src="{{ site.baseurl }}/{{ site.images_path }}/{{ site.logo }}">
-          <img alt="logo" class="logo logo-light" src="{{ site.baseurl }}/{{ site.images_path }}/{{ site.logo }}">
+          <img alt="logo" class="logo logo-dark" src="{{ site.logo | relative_url }}">
+          <img alt="logo" class="logo logo-light" src="{{ site.logo | relative_url }}">
         </a>
       </div>
       <div class="nav-module menu-module left">
@@ -17,7 +17,7 @@
             <ul class="make-right">
               {% for project in site.pages %}
               {% if project.tipus == "projecte" %}
-              <li><a href="{{ site.baseurl }}{{ project.url }}">{{ project.title }}</a></li>
+              <li><a href="{{ project.url | relative_url }}">{{ project.title }}</a></li>
               {% endif %}
               {% endfor %}
             </ul>

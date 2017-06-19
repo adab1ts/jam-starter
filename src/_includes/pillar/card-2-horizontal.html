@@ -1,10 +1,10 @@
 <!-- horizontal card-2 -->
 <article class="col-md-6 col-sm-12">
   <div class="card card--horizontal card-2">
-    <a href="{{ site.baseurl }}{{ event.url }}">
+    <a href="{{ event.url | relative_url }}">
       <div class="card__image col-sm-5">
         <div class="background-image-holder">
-          <img alt="{{ event.descripcio_imatge }}" src="{{ site.baseurl }}/{{ site.images_path }}/{{ event.cover_imatge }}">
+          <img alt="{{ event.descripcio_imatge }}" src="{{ event.cover_imatge | relative_url }}">
         </div>
       </div>
       <div class="card__body col-sm-7 boxed bg--white">

@@ -1,7 +1,7 @@
 <!-- Big header with buttons  -->
 <header class="cover imagebg height-100 parallax" data-overlay="6">
   <div class="background-image-holder">
-    <img alt="{{ page.descripcio_imatge }}" src="{{ site.baseurl }}/{{ site.images_path }}/{{ page.cover_imatge }}">
+    <img alt="{{ page.descripcio_imatge }}" src="{{ page.cover_imatge | relative_url }}">
   </div>
   <div class="container pos-vertical-center text-center">
     <div class="row">

@@ -5,7 +5,7 @@ autor: 'Foo Bar'
 date: 2016-04-22 21:42:16 +0200
 tag: blog
 categoria: campanyes
-cover_imatge: happy-children.jpg
+cover_imatge: /assets/images/happy-children.jpg
 descripcio_imatge: 'This is alt text for cover image'
 # SEO information
 title: "Fem 30 anys!"

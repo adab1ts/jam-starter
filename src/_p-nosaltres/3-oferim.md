@@ -5,7 +5,7 @@ order: 3
 include: nosaltres/services.html
 # Set variables
 titol_seccio: "Com treballem"
-imatge: ong-africa.jpg
+imatge: /assets/images/ong-africa.jpg
 descripcio_imatge: 'Descripció de la imatge de la secció'
 ---
 Phasellus egestas tellus rutrum tellus eu tincidunt. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.

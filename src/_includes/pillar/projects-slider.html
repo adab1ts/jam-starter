@@ -7,10 +7,10 @@
       {% if project.tipus == page.tipus %}
       {% unless project.title == page.title %}
       <li>
-        <a href="{{ site.baseurl }}{{ project.url }}">
+        <a href="{{ project.url | relative_url }}">
           <div class="hover-element hover-element-1" data-title-position="top,right">
             <div class="hover-element__initial">
-              <img alt="{{ project.descripcio_imatge }}" src="{{ site.baseurl }}/{{ site.images_path }}/{{ project.cover_imatge }}">
+              <img alt="{{ project.descripcio_imatge }}" src="{{ project.cover_imatge | relative_url }}">
             </div>
             <div class="hover-element__reveal" data-overlay="9">
               <div class="boxed">

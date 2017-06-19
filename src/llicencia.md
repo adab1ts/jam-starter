@@ -1,6 +1,6 @@
 ---
 layout: basic
-cover_imatge: hero13.jpg
+cover_imatge: /assets/images/hero13.jpg
 descripcio_imatge: 'This is alt text for cover image'
 # SEO information
 title: 'Llicència'

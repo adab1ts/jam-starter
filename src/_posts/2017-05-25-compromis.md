@@ -5,7 +5,7 @@ autor: 'Jane Doe'
 date: 2017-05-25 18:42:16 +0200
 tag: blog
 categoria: 'medi ambient'
-cover_imatge: brote.jpg
+cover_imatge: /assets/images/brote.jpg
 descripcio_imatge: 'This is alt text for cover image'
 # SEO information
 title: 'Compromís per un futur sostenible'

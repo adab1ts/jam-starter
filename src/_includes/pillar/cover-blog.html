@@ -1,18 +1,18 @@
 <!-- Image header with title & author  -->
 <header class="blog-post__title imagebg parallax" data-overlay="6">
   <div class="background-image-holder">
-    <img alt="{{ page.descripcio_imatge }}" src="{{ site.baseurl }}/{{ site.images_path }}/{{ page.cover_imatge }}">
+    <img alt="{{ page.descripcio_imatge }}" src="{{ page.cover_imatge | relative_url }}">
   </div>
   <div class="container">
     <div class="row">
       <div class="col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 text-center">
         <h1>{{ page.titol_entrada }}</h1>
         <div class="blog-post__author">
-          <h6>{{ page.categoria }}</h6>
           <h5 class="h5"><em>publicat per </em>{{ page.autor }}</h5>
           <span>
             <time datetime="{{ page.date | date:'%d-%m-%Y' }}">{{ page.date | date_to_string }}</time>
           </span>
+          <h6>{{ page.categoria }}</h6>
         </div>
       </div>
     </div>

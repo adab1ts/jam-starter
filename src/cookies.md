@@ -1,6 +1,6 @@
 ---
 layout: basic
-cover_imatge: cover7.jpg
+cover_imatge: /assets/images/cover7.jpg
 descripcio_imatge: 'This is alt text for cover image'
 # SEO information
 title: 'Cookies'

@@ -1,9 +1,9 @@
 <!-- vertical card-1 -->
 <article class="col-md-4 col-sm-6">
   <div class="card card-1">
-    <a href="{{ site.baseurl }}{{ post.url }}">
+    <a href="{{ post.url | relative_url }}">
       <div class="card__image">
-        <img alt="{{ post.descripcio_imatge }}" src="{{ site.baseurl }}/{{ site.images_path }}/{{ post.cover_imatge }}">
+        <img alt="{{ post.descripcio_imatge }}" src="{{ post.cover_imatge | relative_url }}">
       </div>
       <div class="card__body boxed bg--white">
         <header class="card__title">
