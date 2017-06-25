@@ -1,13 +1,13 @@
 ---
 layout: basic
-titol_esdeveniment: 'Assemblea anual de sòcies'
-date: 2017-05-05 18:42:16 +0200
-lloc: Girona
+titol_esdeveniment: 'Roda de premsa'
+date: 2017-01-25 15:02:16 +0200
+lloc: Cornellà
 organitzadors: Adab1ts
-cover_imatge: /assets/images/assembly.jpg
+cover_imatge: /assets/images/inner2.jpg
 descripcio_imatge: 'This is alt text for cover image'
 # SEO information
-title: 'Assemblea anual de sòcies i treballadores'
+title: 'Roda de premsa per presentar el nou projecte'
 description: 'Nulla pharetra facilisis nisi vitae auctor.'
 keywords:
 ---
