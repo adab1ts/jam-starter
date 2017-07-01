@@ -1,9 +1,9 @@
 <!-- Member details -->
 <div class="col-md-4 col-sm-6 col-xs-6">
   <div class="member member-1">
-    <img alt="{{ person.nom }}" src="{{ person.imatge | relative_url }}">
-    <h6>{{ person.carrec }}</h6>
-    <h5>{{ person.nom }}</h5>
-    {{ person.content }}
+    <img alt="{{ include.member.name }}" src="{{ include.member.avatar | relative_url }}">
+    <h6>{{ include.member.title }}</h6>
+    <h5>{{ include.member.name }}</h5>
+    {{ include.member.bio }}
   </div>
 </div>

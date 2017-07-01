@@ -61,8 +61,6 @@ permalink: pretty
 
 # Collections
 collections:
-  c-equip:
-    output: false
   c-events:
     output: true
     permalink: /events/:year/:month/:day/:slug/
