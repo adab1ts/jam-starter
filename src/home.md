@@ -1,11 +1,10 @@
 ---
 layout: multi-section
 permalink: /
-# Nom de la col·leccio de seccions de la pàgina
-sections: p-home
+sections: p-home # Page sections collection
 cover_imatge: /assets/images/black-white-hands.jpg
 # SEO information
-title: 'Finding The Way Home'
-description: 'This is the homepage of my site'
-keywords:
+title: Home
+description: Adab1ts JAMstack demo website homepage
+keywords: JAMstack
 ---
