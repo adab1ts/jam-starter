@@ -62,17 +62,15 @@ permalink: pretty
 # Collections
 collections:
   c-events:
-    output: true
     permalink: /events/:year/:month/:day/:slug/
+    output: true
   s-projectes-cms_jamstack:
-    output: false
+  s-projectes-web_estatica_moderna:
   p-home:
     output: false
   p-nosaltres:
     output: false
   p-lorem-ipsum-project:
-    output: false
-  p-web-estatica-moderna:
     output: false
 
 # Site defaults frontmatters
