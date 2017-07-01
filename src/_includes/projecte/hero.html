@@ -1,4 +1,9 @@
-<!-- Hero  -->
-{% include pillar/cover-small.html %}
+<!-- Start Hero  -->
+{% include pillar/cover-small.html
+           cover_image=page.cover_imatge
+           cover_text=page.title  %}
 
-{% include pillar/dark-section.html %}
+{% include pillar/dark-section.html
+           title=section.titol_seccio
+           content=section.content %}
+<!-- End Hero  -->

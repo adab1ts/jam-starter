@@ -1,13 +1,15 @@
 ---
 layout: default
 ---
-{% include pillar/cover-small.html %}
+{% include pillar/cover-small.html
+           cover_image=page.cover_imatge
+           cover_text=page.title  %}
 
 <section class="bg--secondary">
   <div class="container">
     <div class="row">
       <article class="col-sm-8 col-sm-offset-2">
-        {{ content }}
+      {{ content }}
       </article>
     </div>
   </div>

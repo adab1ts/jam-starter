@@ -1,12 +1,17 @@
-<!-- Project description section -->
-{% include pillar/section-title.html %}
-
+<!-- Start Project Description -->
+{% include pillar/section-title.html
+           title=section.titol_seccio
+           content=section.content %}
 <section>
   <div class="container">
     <div class="row">
-      {% for item in section.caracteristiques %}
-      {% include pillar/feature-3.html %}
-      {% endfor %}
+    {% for item in section.caracteristiques %}
+    {% include pillar/feature-3.html
+               icon=item.icona
+               title=item.titol
+               description=item.descripcio %}
+    {% endfor %}
     </div>
   </div>
 </section>
+<!-- End Project Description -->

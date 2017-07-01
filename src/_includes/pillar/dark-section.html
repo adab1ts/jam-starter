@@ -1,13 +1,15 @@
-<!-- Dark section  -->
+{% comment %} Section with dark background {% endcomment %}
+<!-- Start Dark Section  -->
 <section class="bg--dark section--even">
   <div class="container">
     <div class="row">
       <div class="col-sm-11">
-        <h6>{{ section.titol_seccio }}</h6>
+        <h6>{{ include.title }}</h6>
         <div class="lead">
-          {{ section.content }}
+          {{ include.content }}
         </div>
       </div>
     </div>
   </div>
 </section>
+<!-- End Dark Section  -->

@@ -1,13 +1,15 @@
-<!-- Small header with title  -->
+{% comment %} Small header with title {% endcomment %}
+<!-- Start Cover Small  -->
 <header class="cover height-50 imagebg" data-overlay="2">
   <div class="background-image-holder">
-    <img alt="background" src="{{ page.cover_imatge | relative_url }}">
+    <img alt="background" src="{{ include.cover_image | relative_url }}">
   </div>
   <div class="container pos-vertical-center">
     <div class="row">
       <div class="col-sm-8">
-        <h1>{{ page.title }}</h1>
+        <h1>{{ include.cover_text }}</h1>
       </div>
     </div>
   </div>
 </header>
+<!-- End Cover Small  -->

@@ -1,15 +1,18 @@
-<!-- The features section in project -->
+<!-- Start Project Features -->
 <section class="bg--secondary">
   <div class="container">
     <div class="row">
       <div class="col-sm-12 text-center">
         <header class="elements--title">
-          <h4>{{section.titol_seccio }}</h4>
+          <h4>{{ section.titol_seccio }}</h4>
         </header>
       </div>
       {% for item in section.caracteristiques %}
-      {% include pillar/piechart-1.html %}
+      {% include pillar/piechart-1.html
+                 title=item.titol
+                 percent=item.percentatge %}
       {% endfor %}
     </div>
   </div>
 </section>
+<!-- End Project Features -->

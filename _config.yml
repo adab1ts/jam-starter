@@ -66,11 +66,10 @@ collections:
     output: true
   s-projectes-cms_jamstack:
   s-projectes-web_estatica_moderna:
+  s-projectes-projecte:
   p-home:
     output: false
   p-nosaltres:
-    output: false
-  p-lorem-ipsum-project:
     output: false
 
 # Site defaults frontmatters

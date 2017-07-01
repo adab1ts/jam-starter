@@ -1,12 +1,14 @@
-<!-- Feature 3 with icon -->
+{% comment %} Feature with icon {% endcomment %}
+<!-- Start Feature -->
 <div class="col-sm-6">
   <div class="feature feature-3">
     <div class="feature__left">
-      <i class="icon icon-{{ item.icona }} color--primary"></i>
+      <i class="icon icon-{{ include.icon }} color--primary"></i>
     </div>
     <div class="feature__right">
-      <h6>{{ item.titol }}</h6>
-      {{ item.descripcio }}
+      <h6>{{ include.title }}</h6>
+      {{ include.description }}
     </div>
   </div>
 </div>
+<!-- End Feature -->

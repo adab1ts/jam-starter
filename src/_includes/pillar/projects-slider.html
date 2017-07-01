@@ -1,11 +1,10 @@
-<!-- Slide of related projects -->
+{% comment %} Slide of related projects {% endcomment %}
+<!-- Start Projects Slider -->
 <section class="space--0">
   <div class="slider" data-items="4" data-paging="false" data-arrows="false">
     <ul class="slides">
-      <!-- Project loop -->
-      {% for project in site.pages %}
-      {% if project.tipus == page.tipus %}
-      {% unless project.title == page.title %}
+      {% for project in include.projects %}
+      <!-- Start Project Slide -->
       <li>
         <a href="{{ project.url | relative_url }}">
           <div class="hover-element hover-element-1" data-title-position="top,right">
@@ -15,17 +14,15 @@
             <div class="hover-element__reveal" data-overlay="9">
               <div class="boxed">
                 <h5>{{ project.title }}</h5>
-                <span>
-                  <em>{{ project.categoria }}</em>
-                </span>
+                <span><em>{{ project.categoria }}</em></span>
               </div>
             </div>
           </div>
         </a>
       </li>
-      {% endunless %}
-      {% endif %}
+      <!-- End Project Slide -->
       {% endfor %}
     </ul>
   </div>
 </section>
+<!-- End Projects Slider -->

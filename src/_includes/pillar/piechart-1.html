@@ -1,11 +1,13 @@
-<!-- Piechart -->
+{% comment %} Piechart {% endcomment %}
+<!-- End Piechart -->
 <div class="col-sm-6 col-md-3 text-center">
-  <h6>{{ item.titol }}</h6>
-  <div class="piechart piechart-1" data-size="200" data-value="{{ item.percentatge }}">
+  <h6>{{ include.title }}</h6>
+  <div class="piechart piechart-1" data-size="200" data-value="{{ include.percent }}">
     <div class="piechart__overlay">
       <div class="piechart__description">
-        <span class="h3">{{ item.percentatge }}%</span>
+        <span class="h3">{{ include.percent }}%</span>
       </div>
     </div>
   </div>
 </div>
+<!-- End Piechart -->

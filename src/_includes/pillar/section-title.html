@@ -1,13 +1,15 @@
-<!-- Title & subtitle  -->
+{% comment %} Section title and subtitle {% endcomment %}
+<!-- Start Section Title  -->
 <section>
   <div class="container">
     <div class="row">
       <div class="col-sm-10 col-sm-offset-1 text-center">
-        <h3>{{ section.titol_seccio }}</h3>
+        <h3>{{ include.title }}</h3>
         <div class="lead">
-          {{ section.content }}
-        </delivers>
+          {{ include.content }}
+        </div>
       </div>
     </div>
   </div>
 </section>
+<!-- End Section Title  -->

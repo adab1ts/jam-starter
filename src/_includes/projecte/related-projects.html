@@ -1,1 +1,5 @@
-{% include pillar/projects-slider.html %}
+<!-- Start Related Projects -->
+{% assign project_pages = site.pages | where:'tipus','projecte' %}
+{% assign related = project_pages | where_exp:'project','project.title != page.title' %}
+{% include pillar/projects-slider.html projects=related %}
+<!-- End Related Projects -->

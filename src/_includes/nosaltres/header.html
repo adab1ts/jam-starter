@@ -1,3 +1,9 @@
-{% include pillar/cover-small.html %}
-<!-- Intro -->
-{% include pillar/section-title.html %}
+<!-- Start Header -->
+{% include pillar/cover-small.html
+           cover_image=page.cover_imatge
+           cover_text=page.title  %}
+
+{% include pillar/section-title.html
+           title=section.titol_seccio
+           content=section.content %}
+<!-- End Header -->
