@@ -64,7 +64,7 @@ collections:
   c-events:
     output: true
     permalink: /events/:year/:month/:day/:slug/
-  p-gestor-continguts:
+  s-projectes-cms_jamstack:
     output: false
   p-home:
     output: false
