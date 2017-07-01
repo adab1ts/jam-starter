@@ -2,6 +2,7 @@
 layout: multi-section
 tipus: projecte
 categoria: 'lorem ipsum'
+permalink: /projectes/lorem-ipsum-project-1/
 # Nom de la col·leccio de seccions de la pàgina
 sections: p-lorem-ipsum-project
 cover_imatge: /assets/images/datils.jpg

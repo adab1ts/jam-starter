@@ -2,6 +2,7 @@
 layout: multi-section
 tipus: projecte
 categoria: 'web development'
+permalink: /projectes/web-estatica-moderna/
 # Nom de la col·leccio de seccions de la pàgina
 sections: p-web-estatica-moderna
 cover_imatge: /assets/images/working-57714.jpg

@@ -2,6 +2,7 @@
 layout: multi-section
 tipus: projecte
 categoria: 'web development'
+permalink: /projectes/gestor-de-continguts/
 # Nom de la col·leccio de seccions de la pàgina
 sections: p-gestor-continguts
 cover_imatge: /assets/images/computer-edit.jpg

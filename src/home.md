@@ -1,5 +1,6 @@
 ---
 layout: multi-section
+permalink: /
 # Nom de la col·leccio de seccions de la pàgina
 sections: p-home
 cover_imatge: /assets/images/black-white-hands.jpg
