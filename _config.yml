@@ -1,4 +1,4 @@
-# Jykell configuration
+# Jekyll configuration
 
 # Site settings
 baseurl: "" # edit baseurl to simply '/' if using as your personal page (instead of a project page)
@@ -30,7 +30,7 @@ author_image: 'lovelace.png'
 
 # Where things are
 source: src
-destination:
+destination: build
 fonts_path: assets/fonts
 images_path: assets/images
 scripts_path: assets/scripts
@@ -44,18 +44,18 @@ markdown_ext: "md"
 #theme: minima
 gems:
   - jekyll-feed
-exclude:
-  - README.md
-  - Gemfile
-  - Gemfile.lock
-  - changelog.md
+
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - README.md
 
 # Conversion
 markdown: kramdown
 highlighter: rouge
 
 # Outputting
-#permalink:
+permalink: pretty
 #paginate: 5
 #paginate_path: "/page:num/"
 
@@ -65,6 +65,7 @@ collections:
     output: false
   c-events:
     output: true
+    permalink: /events/:year/:month/:day/:slug/
   p-gestor-continguts:
     output: false
   p-home:
@@ -97,6 +98,7 @@ defaults:
       type: "posts"
     values:
       layout: post
+      permalink: /blog/:categories/:year/:month/:day/:slug/
       titol_entrada: 'Títol de la publicació'
       autor: 'Jane Doe'
       date: 2015-02-05 18:42:16 +0200
