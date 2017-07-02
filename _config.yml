@@ -67,9 +67,8 @@ collections:
   s-projectes-cms_jamstack:
   s-projectes-web_estatica_moderna:
   s-projectes-projecte:
+  s-nosaltres:
   p-home:
-    output: false
-  p-nosaltres:
     output: false
 
 # Site defaults frontmatters

@@ -1,12 +1,10 @@
 ---
-# Set the display order for this section
-order: 3
-# Specify the layout for this section
-include: nosaltres/services.html
-# Set variables
-titol_seccio: "Com treballem"
+order: 3  # Section display order
+include: nosaltres/services.html # Section layout
+# Section variables
+titol_seccio: Com treballem
 imatge: /assets/images/ong-africa.jpg
-descripcio_imatge: 'Descripció de la imatge de la secció'
+descripcio_imatge: Descripció de la imatge de la secció
 ---
 Phasellus egestas tellus rutrum tellus eu tincidunt. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 

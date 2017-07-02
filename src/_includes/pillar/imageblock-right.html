@@ -1,15 +1,15 @@
-<!-- Content with image on the right side -->
+{% comment %} Content with image on the right side {% endcomment %}
 <section class="imageblock about-1">
   <div class="imageblock__content col-md-6 col-sm-4 pos-right">
     <div class="background-image-holder">
-      <img alt="{{ section.descripcio_imatge }}" src="{{ section.imatge | relative_url }}">
+      <img alt="{{ include.image_alt }}" src="{{ include.image_src | relative_url }}">
     </div>
   </div>
   <div class="container">
     <div class="row">
       <div class="col-md-5 col-sm-8">
-        <h4>{{ section.titol_seccio }}</h4>
-        {{ section.content }}
+        <h4>{{ include.heading }}</h4>
+        {{ include.content }}
       </div>
     </div>
   </div>
