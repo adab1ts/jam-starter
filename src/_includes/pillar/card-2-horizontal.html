@@ -1,17 +1,17 @@
-<!-- horizontal card-2 -->
+{% comment %} Horizontal Card {% endcomment %}
 <article class="col-md-6 col-sm-12">
   <div class="card card--horizontal card-2">
-    <a href="{{ event.url | relative_url }}">
+    <a href="{{ include.link | relative_url }}">
       <div class="card__image col-sm-5">
         <div class="background-image-holder">
-          <img alt="{{ event.descripcio_imatge }}" src="{{ event.cover_imatge | relative_url }}">
+          <img alt="{{ include.image_alt }}" src="{{ include.image | relative_url }}">
         </div>
       </div>
       <div class="card__body col-sm-7 boxed bg--white">
         <header class="card__title">
-          <h4>{{ event.titol_esdeveniment }}</h4>
-          <h5><em><time datetime="{{ event.date | date:'%d-%m-%Y' }}">{{ event.date | date_to_string }}</time>&nbsp;|&nbsp;{{ event.lloc }}</em></h5>
-          <h6>Organitzadors: {{ event.organitzadors }}</h6>
+          <h4>{{ include.title }}</h4>
+          <h5><em><time datetime="{{ include.date | date:'%d-%m-%Y' }}">{{ include.date | date:'%d %b %Y' }}</time> | {{ include.meta1 }}</em></h5>
+          <h6>{{ include.meta2 }}</h6>
         </header>
       </div>
     </a>

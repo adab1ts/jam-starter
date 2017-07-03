@@ -1,14 +1,12 @@
-<!-- Slide with logos -->
+{% comment %} Slide with logos {% endcomment %}
 <section class="partners-1 space--sm bg--secondary">
   <div class="container">
     <div class="row">
       <div class="col-sm-12">
-        <div class="slider" data-items="{{ section.partners | size }}" data-timing="3000">
+        <div class="slider" data-items="{{ include.partners | size }}" data-timing="3000">
           <ul class="slides">
-            {% for item in section.partners %}
-            <li>
-              <img alt="{{ item.nom }}" src="{{ item.logo | relative_url }}">
-            </li>
+            {% for partner in include.partners %}
+            <li><img alt="{{ partner.nom }}" src="{{ partner.logo | relative_url }}"></li>
             {% endfor %}
           </ul>
         </div>

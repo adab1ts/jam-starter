@@ -1,4 +1,4 @@
-<!-- The features section on the homepage -->
+<!-- Start Intro -->
 <section>
   <div class="container">
     <div class="row">
@@ -8,9 +8,12 @@
         </div>
       </div>
       {% for item in section.blocs %}
-      {% include pillar/feature-1.html %}
+      {% include pillar/feature-1.html
+                 icon=item.icona
+                 title=item.titol
+                 description=item.descripcio %}
       {% endfor %}
-
     </div>
   </div>
 </section>
+<!-- End Intro -->

@@ -64,12 +64,11 @@ collections:
   c-events:
     permalink: /events/:year/:month/:day/:slug/
     output: true
-  s-projectes-cms_jamstack:
-  s-projectes-web_estatica_moderna:
-  s-projectes-projecte:
+  s-home:
   s-nosaltres:
-  p-home:
-    output: false
+  s-projectes-cms_jamstack:
+  s-projectes-projecte:
+  s-projectes-web_estatica_moderna:
 
 # Site defaults frontmatters
 defaults:

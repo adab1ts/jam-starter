@@ -1,14 +1,14 @@
-<!-- The parterns section on the homepage -->
+<!-- Start Partners -->
 <section id="partners" class="bg--secondary">
   <div class="container">
     <div class="row">
       <div class="col-sm-12 text-center">
         <h2>{{ section.titol_seccio }}</h2>
-        <span>
-          {{ section.content }}
-        </span>
+        <span>{{ section.content }}</span>
       </div>
     </div>
   </div>
-  {% include pillar/partners-1.html %}
+  {% include pillar/partners-1.html
+             partners=section.partners %}
 </section>
+<!-- End Partners -->

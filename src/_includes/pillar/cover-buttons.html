@@ -1,17 +1,26 @@
-<!-- Big header with buttons  -->
+{% comment %} Big header with buttons {% endcomment %}
 <header class="cover imagebg height-100 parallax" data-overlay="6">
   <div class="background-image-holder">
-    <img alt="{{ page.descripcio_imatge }}" src="{{ page.cover_imatge | relative_url }}">
+    <img alt="{{ include.image_alt }}" src="{{ include.image_src | relative_url }}">
   </div>
   <div class="container pos-vertical-center text-center">
     <div class="row">
       <div class="col-sm-10 col-sm-offset-1">
-        <h1 class="h2">{{ section.claim }}</h1>
-        <div class="lead">{{ section.content }}</div>
-        <a class="btn btn--primary inner-link btn--merge" href="{{ site.baseurl }}{% link projectes/web-estatica-moderna.md %}">
-          <span class="btn__text">{{ section.boto_1 }}</span>
-        </a><a class="btn btn--primary inner-link btn--merge" href="{{ site.baseurl }}{% link home.md %}#partners">
-          <span class="btn__text">{{ section.boto_2 }}</span>
+        <h1 class="h2">{{ include.claim }}</h1>
+        <div class="lead">{{ include.lead }}</div>
+        {% capture left_link %}
+        {% assign leading_l = include.btn_left_link | slice: 0 %}
+        {% if leading_l == "/" %}{{ include.btn_left_link | relative_url }}{% else %}{{ include.btn_left_link }}{% endif %}
+        {% endcapture %}
+        <a class="btn btn--primary inner-link btn--merge" href="{{ left_link | strip }}">
+          <span class="btn__text">{{ include.btn_left_text }}</span>
+        </a>
+        {% capture right_link %}
+        {% assign leading_r = include.btn_right_link | slice: 0 %}
+        {% if leading_r == "/" %}{{ include.btn_right_link | relative_url }}{% else %}{{ include.btn_right_link }}{% endif %}
+        {% endcapture %}
+        <a class="btn btn--primary inner-link btn--merge" href="{{ right_link | strip }}">
+          <span class="btn__text">{{ include.btn_right_text }}</span>
         </a>
       </div>
     </div>

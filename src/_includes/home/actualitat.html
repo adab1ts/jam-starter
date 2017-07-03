@@ -1,16 +1,14 @@
-<!-- Start Related Posts -->
-<section>
+<!-- Start Actualitat -->
+<section class="bg--secondary">
   <div class="container">
     <div class="row">
       <div class="col-sm-12">
         <div class="elements--title">
-          <h4>Notícies relacionades</h4>
+          <h2>{{ section.titol_seccio }}</h2>
         </div>
       </div>
-      {% assign related = site.posts
-                          | where_exp:'post','post.categoria == page.categoria'
-                          | where_exp:'post','post.title != page.title' %}
-      {% for post in related limit: 3 %}
+      {% assign posts = site.posts | where:'tag','blog' %}
+      {% for post in posts limit: 3 %}
       {% include pillar/card-1.html
                  link=post.url
                  image=post.cover_imatge
@@ -22,4 +20,4 @@
     </div>
   </div>
 </section>
-<!-- End Related Posts -->
+<!-- End Actualitat -->
